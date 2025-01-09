@@ -1,0 +1,136 @@
+/* Genel Ayar */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+h1, h2, h3 {
+    font-family: 'Libre Baskerville', serif;
+}
+
+/* Navigasyon Menü */
+nav {
+    background-color: #393E46;
+    padding: 10px 0;
+}
+
+.navbar-list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-list li {
+    margin: 0 15px;
+}
+
+.navbar-list a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-list a:hover {
+    background-color: #00adb5;
+}
+
+/* Başlık */
+.container-head h1 {
+    text-align: center;
+    padding: 50px 0;
+    font-size: 36px;
+}
+
+.container-head a {
+    color: #393E46;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hakkımda Bölümü */
+.container-body {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    border-top: 2px solid #00adb5;
+}
+
+.ben {
+    font-size: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.I-am {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+/* Deneyim Bölümü */
+#deneyim {
+    background-color: #ffffff;
+    padding: 50px 20px;
+}
+
+.Projelerim {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container-deneyim {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.denee {
+    margin: 10px;
+    text-align: center;
+}
+
+.dene-resim {
+    width: 250px;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.link-resim {
+    display: block;
+    margin-bottom: 10px;
+}
+
+/* İletişim Bölümü */
+#iletişim {
+    background-color: #393E46;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.iletişim-1 button {
+    background-color: #00adb5;
+    border: none;
+    padding: 15px 30px;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.iletişim-1 button a {
+    color: white;
+    text-decoration: none;
+}
